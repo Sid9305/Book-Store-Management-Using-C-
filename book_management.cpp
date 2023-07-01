@@ -22,7 +22,7 @@ class Book_store
 			if (author[0]=='a' || author[0]=='A' || author[0]=='e' || author[0]=='E' || author[0]=='i' || author[0]=='I' || author[0]=='o' || author[0]=='O' || author[0]=='u' || author[0]=='U')
 			{
 				no_of_copies_available=100;
-		    }
+		    	}
 			else
 			{
 				no_of_copies_available=20;
@@ -94,8 +94,8 @@ class Book_store
 			else
 			{
 				cout<<"\nBook name is "<<book_name<<endl;
-			    cout<<"\nAuthor of the book is "<<author<<endl;
-			    cout<<"\nPrice of the book is per unit "<<price<<endl;
+			    	cout<<"\nAuthor of the book is "<<author<<endl;
+			    	cout<<"\nPrice of the book is per unit "<<price<<endl;
 				cout<<"\nBook hasn't been sold, the current status is "<<no_of_copies_available<<endl;
 			}	
 		}
